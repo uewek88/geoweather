@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <api>
+            <configuration>
+                <user_login>self_haidenok</user_login>
+                <user_password>8Kq6tQ1dgB</user_password>
+                <lat>50.450001</lat>
+                <lon>30.523333</lon>
+            </configuration>
+        </api>
+    </default>
+</config>

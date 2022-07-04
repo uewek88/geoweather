@@ -1,0 +1,16 @@
+{
+    "geo_weather": {
+        "column": {
+            "entity_id": true,
+            "temperature": true,
+            "position": true,
+            "wind_speed": true,
+            "humidity": true,
+            "wind_dir": true,
+            "time": true
+        },
+        "constraint": {
+            "PRIMARY": true
+        }
+    }
+}
