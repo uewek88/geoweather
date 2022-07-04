@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="weather_report" translate="label" sortOrder="200">
+            <label>Test GeoWeather</label>
+        </tab>
+        <section id="api" translate="label" type="text" sortOrder="40" showInDefault="1">
+            <class>separator-top</class>
+            <label>API Configuration</label>
+            <tab>weather_report</tab>
+            <resource>Test_GeoWeather::api_config</resource>
+            <group id="configuration" translate="label" type="text" sortOrder="90" showInDefault="1">
+                <label>API Params</label>
+                <field id="user_login" translate="label comment" type="text" sortOrder="10" showInDefault="1">
+                    <label>User Login</label>
+                </field>
+                <field id="user_password" translate="label comment" type="text" sortOrder="20" showInDefault="1">
+                    <label>User Password</label>
+                </field>
+                <field id="lat" translate="label comment" type="text" sortOrder="50" showInDefault="1">
+                    <label>Latitude</label>
+                </field>
+                <field id="lon" translate="label comment" type="text" sortOrder="60" showInDefault="1">
+                    <label>Longitude</label>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
